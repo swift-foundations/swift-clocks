@@ -18,15 +18,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../../swift-primitives/swift-clock-primitives"),
         .package(path: "../swift-kernel"),
     ],
     targets: [
         .target(
             name: "Clocks",
             dependencies: [
-                .product(name: "Clock Primitives", package: "swift-clock-primitives"),
-                .product(name: "Kernel", package: "swift-kernel"),
+                .product(name: "Kernel Clock", package: "swift-kernel"),
             ]
         ),
     ],
