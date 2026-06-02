@@ -18,7 +18,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../swift-kernel"),
+        .package(url: "https://github.com/swift-foundations/swift-kernel.git", branch: "main"),
     ],
     targets: [
         .target(
