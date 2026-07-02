@@ -1,6 +1,6 @@
 # .github/metadata.yaml
 # Triaged 2026-04-29 — anomaly-fix pass after wave-4 PR-branch triage didn't apply.
-description: "Clocks for Swift."
+description: "A Clock family — OS-backed monotonic, deterministic test, and phantom-tagged instants — conforming to the concurrency Clock protocol for Swift."
 topics:
   - foundations
   - clocks
