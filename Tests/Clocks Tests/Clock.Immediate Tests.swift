@@ -1,14 +1,3 @@
-// ===----------------------------------------------------------------------===//
-//
-// This source file is part of the swift-clocks open source project
-//
-// Copyright (c) 2025 Coen ten Thije Boonkkamp and the swift-clocks project authors
-// Licensed under Apache License v2.0
-//
-// See LICENSE for license information
-//
-// ===----------------------------------------------------------------------===//
-
 import Clocks
 import Testing
 
